@@ -1,0 +1,76 @@
+body {
+  background: #111;
+  color: #eee;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 480px;
+  margin: auto;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.form input,
+.form textarea {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.stars {
+  font-size: 20px;
+}
+
+.form button {
+  background: purple;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.movie-list {
+  margin-top: 20px;
+}
+
+.movie-card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.stars-display {
+  font-size: 20px;
+  color: gold;
+}
+
+.delete-btn {
+  background: crimson;
+  border: none;
+  padding: 8px 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.stars span {
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+}
